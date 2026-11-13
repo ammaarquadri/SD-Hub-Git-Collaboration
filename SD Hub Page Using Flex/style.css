@@ -25,3 +25,57 @@
 .body {
     padding: 20px;
 }
+.hero{
+    padding: 20px 15px;
+    overflow: hidden;
+}
+.main-heading{
+    font-size: 60px;
+    color: #35415f;
+    margin: 0;
+}
+.subtitle-wrapper{
+    position: relative;
+    width: fit-content;
+    margin-top: 5px;
+}
+.sub-heading{
+    font-size: 40px;
+    color: #416dff;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+.circle{
+    position: absolute;
+    width: 105%;
+    height: 65px;
+    top: -5px;
+    left: -2.5%;
+    overflow: visible;
+    z-index: 1;
+}
+.circle ellipse{
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+}
+.hero-description{
+   color:#777;
+   font-size: 20px;
+   line-height: 1.6;
+   max-width: 900px;
+    margin-top: 25px;
+}
+.contact-btn{
+    background: #4d79ff;
+    color: white;
+    border: none;
+    padding: 17px 45px;
+    font-size:18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.contact-btn span{
+    margin-left: 15px;
+}
