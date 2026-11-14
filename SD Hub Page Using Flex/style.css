@@ -79,3 +79,29 @@
 .contact-btn span{
     margin-left: 15px;
 }
+
+/* Contributor Section */
+.contributors {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f4f5ff;
+}
+
+.contributors h2 {
+    color: #35415f;
+    font-size: 32px;
+}
+
+.contributor-card {
+    display: inline-block;
+    padding: 25px 40px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contributor-card span {
+    color: #6259ee;
+    font-weight: bold;
+}
