@@ -39,14 +39,12 @@
         <div class="a1">
             <h1>WHAT WE DO</h1>
             <h1>Osmans work</h1>
-            <button>
-                <h1>WHAT WE DO</h1>
-            </button>
             <h2>Training Solutions Tailored to Industry</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam error corporis cupiditate fugit facilis
                 a nemo exercitationem quo quae recusandae assumenda corrupti accusamus, enim, ipsa, dicta commodi veniam
                 deleniti? Tempore ducimus magnam animi voluptate aperiam exercitationem obcaecati expedita quisquam,
                 debitis ut voluptates velit eos nemo earum unde doloribus fugit voluptatibus.</p>
+            <button class="sound-btn" type="button" aria-label="Play sound effect">Play sound <span aria-hidden="true">&#9834;</span></button>
             <h3>I am <a href="https://youtu.be/WsllF4THOYk?si=8db86ILSO-bqCrhB">Gafoor</a> </h3>
 
         </div>
@@ -135,6 +133,16 @@
             duration: 0.7,
             ease: "power2.out"
         }, "-=0.3");
+    </script>
+    <audio id="vine-boom" src="../vine-boom.mp3" preload="auto"></audio>
+    <script>
+        const soundButton = document.querySelector(".sound-btn");
+        const vineBoom = document.querySelector("#vine-boom");
+
+        soundButton.addEventListener("click", () => {
+            vineBoom.currentTime = 0;
+            vineBoom.play();
+        });
     </script>
 
 </body>
