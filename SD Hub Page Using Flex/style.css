@@ -127,4 +127,28 @@
 .contributor-card span {
     color: #6259ee;
     font-weight: bold;
+}.why-choose-us {
+    padding: 30px;
+    text-align: center;
+    background: #f5f5ff;
+}
+
+.why-choose-us h2 {
+    color: #6259ee;
+    margin-bottom: 15px;
+}
+
+.why-choose-us p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.why-choose-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-choose-us li {
+    margin: 10px;
+    font-weight: bold;
 }
